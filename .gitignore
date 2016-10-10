@@ -3,3 +3,4 @@ out
 
 #IDEA
 *.iml
+.idea/*

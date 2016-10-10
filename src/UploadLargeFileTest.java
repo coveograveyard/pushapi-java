@@ -14,13 +14,13 @@ import java.util.TimeZone;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-public class UploadTest {
+public class UploadLargeFileTest {
 
     private static final Logger LOGGER =
-            Logger.getLogger(UploadTest.class.getName());
+            Logger.getLogger(UploadLargeFileTest.class.getName());
 
     /**
-     * Usage: UploadTest -o coveochadjohnson01 -s coveochadjohnson01-x4vdgehj6st4bvt6ur3wmx2poi
+     * Usage: UploadLargeFileTest -o coveochadjohnson01 -s coveochadjohnson01-x4vdgehj6st4bvt6ur3wmx2poi
      *              -a __________-____-____-____-____________ -f "/Users/cjohnson/somefile.pdf"
      *              -d http://www.test.com/somefile.pdf
      *
@@ -72,7 +72,7 @@ public class UploadTest {
 
         } catch (ParseException exp) {
             HelpFormatter formatter = new HelpFormatter();
-            formatter.printHelp("UploadTest <args>", options);
+            formatter.printHelp("UploadLargeFileTest <args>", options);
             System.exit(0);
         }
 
